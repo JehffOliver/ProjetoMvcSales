@@ -26,6 +26,8 @@ namespace SellesWebMvc.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Message"] = "Site de vendas";
+            ViewData["Email"] = "jehff.aral@hotmail.com";
             return View();
         }
 
